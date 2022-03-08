@@ -1,13 +1,143 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #23252c;
+  font-family: "Inter";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+h2,
+h3,
+h4 {
+  color: white;
 }
+
+div,
+p {
+  color: #dcdcdc;
+}
+
+.container {
+  padding: 50px;
+}
+
+.btn {
+  padding: 9px 20px 9px 45px;
+  border: 1px solid;
+  position: relative;
+}
+
+.btn-primary {
+  border-color: #297fe5;
+  background-color: #297fe5;
+  color: white;
+}
+
+.btn-secondary {
+  border-color: #d1d5db;
+  background-color: white;
+  color: #374151;
+}
+
+/* card */
+.card {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #1a1b21;
+}
+
+/* Header */
+header {
+  text-align: center;
+  width: 100%;
+}
+header img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+header .header__wrap {
+  padding: 1.5625rem;
+}
+header .header__bio {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+header .header__bio h1 {
+  font-size: 25px;
+  margin: 0;
+}
+header .header__bio span {
+  color: #f3bf99;
+  font-size: 13px;
+}
+header .header__bio a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+header .header__links {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  margin-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+header .header__links a {
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  background-repeat: no-repeat;
+  background-size: 28px 16px;
+  background-position: 10px center;
+}
+header .header__links a.btn-mail {
+  background-image: url(./svg/email.svg);
+}
+header .header__links a.btn-social {
+  background-image: url(./svg/linkedin.svg);
+}
+
+.info__block {
+  padding: 1.5625rem;
+}
+.info__block .info__title {
+  font-size: 1.5rem;
+}
+.info__block .info__text {
+  font-size: 0.6875rem;
+}
+
+footer {
+  background-color: black;
+  padding: 15px 0;
+}
+footer .social {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+footer .social .social__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  padding: 15px;
+}
+footer .social .social__item-linkedin {
+  background-image: url(./svg/linkedin.svg);
+}
+footer .social .social__item-github {
+  background-image: url(./svg/github.svg);
+}
+footer .social .social__item-facebook {
+  background-image: url(./svg/facebook.svg);
+}
+footer .social .social__item-instagram {
+  background-image: url(./svg/instagram.svg);
+}
+
+/*# sourceMappingURL=index.css.map */
